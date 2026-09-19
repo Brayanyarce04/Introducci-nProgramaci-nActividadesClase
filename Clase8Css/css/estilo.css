@@ -1,0 +1,23 @@
+#{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #29A7D9;
+}
+header{
+    width: 80%;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    text-align: center;
+}
+header .menu{
+    background-color: aqua;
+    padding: 10px;
+}
+header .menu a{
+    color: aliceblue;
+    margin-right: 12px;
+    text-decoration: none;
+}

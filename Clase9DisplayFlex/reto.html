@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helados MIMOS - Dulces Momentos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-icon">🍦</span>
+      <span class="logo-text">MIMOS</span>
+    </div>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">¡El sabor artesanal que alegra tu día!</h1>
+      <p class="hero-description">Descubre nuestra variedad de helados hechos con frutas 100% naturales, cremosidad única y combinaciones irresistibles preparadas con amor.</p>
+      <a href="#productos" class="btn-primary">Ver Menú</a>
+    </div>
+  </section>
+
+  <section id="galeria" class="products-section">
+    <h2 class="section-title">Nuestros Favoritos</h2>
+    
+    <div class="cards-container" id="productos">
+      
+      <article class="card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=500&q=80" alt="Helado de Fresa">
+        </div>
+        <div class="card-body">
+          <h3>Fresa Silvestre</h3>
+          <p>Deliciosa crema de fresas naturales con trozos de fruta fresca y sirope especial.</p>
+          <a href="https://wa.me/573043909319?text=Hola%20MIMOS,%20quiero%20comprar%20el%20helado%20Fresa%20Silvestre" target="_blank" class="btn-whatsapp">Comprar en WhatsApp 💬</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=500&q=80" alt="Helado de Chocolate y Menta">
+        </div>
+        <div class="card-body">
+          <h3>Menta & Choco</h3>
+          <p>Refrescante infusión de menta con chispas de chocolate amargo 70% cacao.</p>
+          <a href="https://wa.me/573043909319?text=Hola%20MIMOS,%20quiero%20comprar%20el%20helado%20Menta%20and%20Choco" target="_blank" class="btn-whatsapp">Comprar en WhatsApp 💬</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?auto=format&fit=crop&w=500&q=80" alt="Helado de Vainilla y Caramelo">
+        </div>
+        <div class="card-body">
+          <h3>Vainilla Gold</h3>
+          <p>Suave helado de vainilla de Madagascar bañado en un dulce espiral de caramelo salado.</p>
+          <a href="https://wa.me/573043909319?text=Hola%20MIMOS,%20quiero%20comprar%20el%20helado%20Vainilla%20Gold" target="_blank" class="btn-whatsapp">Comprar en WhatsApp 💬</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <footer id="contacto" class="footer">
+    <div class="footer-content">
+      <h3>¡Únete al Club MIMOS! 🍦</h3>
+      <p>Suscríbete a nuestro boletín para recibir descuentos especiales y probar nuevos sabores antes que nadie.</p>
+      
+      <form class="newsletter-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('¡Gracias por suscribirte!');">
+        <input type="email" placeholder="Escribe tu correo electrónico..." required>
+        <button type="submit" class="btn-submit">Suscribirme</button>
+      </form>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Helados MIMOS. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
