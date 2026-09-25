@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightgray;
+    color: black;
+    width: 100%;
+}
+
+header {
+    background-color: lightblue;
+    text-align: left;
+    padding: 40px 40px 20px 40px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+header p {
+    color: dimgray;
+    font-size: 14px;
+}
+
+nav {
+    background-color: darkblue;
+    text-align: left;
+    padding: 15px 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    text-decoration: underline;
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 95%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+main section {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 0px;
+    padding: 25px;
+    width: 100%;
+}
+
+main section h2 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+main section p {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: dimgray;
+    font-size: 14px;
+    width: 100%;
+}
